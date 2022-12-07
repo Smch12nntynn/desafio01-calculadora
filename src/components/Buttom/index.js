@@ -1,9 +1,9 @@
 
 import {ButtonContainer} from './styles'
 
-function Buttom({label, onclick}) {
+function Buttom({label, onClick}) {
     return (
-        <ButtonContainer onclick={onclick}>
+        <ButtonContainer onClick={onClick}>
             {label}
         </ButtonContainer>
     );

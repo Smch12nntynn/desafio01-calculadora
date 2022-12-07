@@ -1,10 +1,10 @@
 
 import { InputContainer } from './styles';
 
-function Input() {
+function Input({value}) {
     return (
         <InputContainer>
-            <input disabled />
+            <input disabled value={value} />
         </InputContainer>
     );
 }

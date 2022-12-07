@@ -21,9 +21,12 @@ justify-content: space-between;
 align-items: center;
 `
 
-export const Column = styled.div`
+export const LastRow = styled.div`
+
 display: flex;
-flex-direction: column;
+flex-wrap: wrap;
+flex: 33%;
+flex-direction: row;
 justify-content: space-between;
 align-items: center;
 `
